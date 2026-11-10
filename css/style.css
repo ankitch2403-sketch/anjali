@@ -56,22 +56,39 @@ main,nav{position:relative;z-index:1}
   margin: 20px 0;
 }
 
+/* Romantic Polaroid Memory Gallery */
+
 .memory-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-  margin: 25px auto;
+  gap: 22px;
   max-width: 850px;
+  margin: 35px auto;
+  padding: 12px;
   align-items: start;
 }
 
 .memory-gallery a {
   display: block;
+  background: #fffaf0;
+  padding: 9px 9px 24px;
+  border-radius: 4px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.35);
   overflow: hidden;
-  border-radius: 18px;
-  background: #17121f;
-  border: 1px solid rgba(255,255,255,0.15);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.memory-gallery a:nth-child(odd) {
+  transform: rotate(-2deg);
+}
+
+.memory-gallery a:nth-child(even) {
+  transform: rotate(2deg);
+}
+
+.memory-gallery a:hover {
+  transform: rotate(0deg) scale(1.03);
+  z-index: 2;
 }
 
 .memory-gallery img {
@@ -79,17 +96,16 @@ main,nav{position:relative;z-index:1}
   width: 100%;
   height: auto;
   object-fit: contain;
-  border-radius: 18px;
-  transition: transform 0.4s ease;
-}
-
-.memory-gallery a:hover img {
-  transform: scale(1.03);
+  background: #eee;
 }
 
 @media (max-width: 600px) {
   .memory-gallery {
-    gap: 9px;
-    margin: 18px auto;
+    gap: 12px;
+    padding: 8px;
+  }
+
+  .memory-gallery a {
+    padding: 6px 6px 16px;
   }
 }
