@@ -3,7 +3,7 @@ window.CONFIG = {
   names: { him: "Ankit", her: "Anjali", nick: "Rasgulla" },
   startISO: "2024-11-11T00:00:00+05:30",          // relationship start (IST)
   driveUrl: "https://drive.google.com/drive/folders/1hqwpBFjDC-Pd1evgLr8ngnwCM-O5-yaJ", // GOOGLE_DRIVE_FOLDER_URL
-  musicPath: "music/background.mp3",
+  
   wishes: [
     "May your smile always stay beautiful.",
     "May all your dreams come true.",
@@ -33,12 +33,12 @@ window.CONFIG = {
   ].map((t, i) => "Reason " + (i + 1) + ": I love " + t + ". "),
   // date: "YYYY-MM-DD" ("" = not set yet). yearly:true repeats every year.
   dates: [
-    { label: "Our relationship began", date: "11-11-2024", yearly: true, note: "Our anniversary" },
-    { label: "Anjali's birthday", date: "22-02-2007", yearly: true, note: "" },
-    { label: "Ankit's birthday", date: "03-10-2003", yearly: true, note: "" },
-    { label: "Our first meeting", date: "2024", yearly: true, note: "" },
-    { label: "Another special day", date: "17-03-2026", yearly: false, note: "" }
-  ],
+  { label: "Our relationship began", date: "2024-11-11", yearly: true, note: "Our anniversary" },
+  { label: "Anjali's birthday", date: "2007-02-22", yearly: true },
+  { label: "Ankit's birthday", date: "2003-10-03", yearly: true },
+  { label: "Our first meeting", date: "2024", yearly: true },
+  { label: "Another special day", date: "2026-03-17", yearly: false }
+],
   bucket: [
     "Explore beautiful places together.",
     "Watch a beautiful sunset.",
