@@ -12,11 +12,11 @@ window.CONFIG = {
     "May life bring us countless beautiful memories."
   ],
   promises: [
-    { t: "I promise to respect you.", d: "Your choices, your voice and your space matter to me. (Edit this text.)" },
-    { t: "I promise to support your dreams.", d: "I will cheer for you on every step of the way. (Edit this text.)" },
-    { t: "I promise to listen and understand.", d: "I will listen to understand, not just to reply. (Edit this text.)" },
-    { t: "I promise to stand beside you.", d: "In good days and hard days, I will be next to you. (Edit this text.)" },
-    { t: "I promise to keep choosing us.", d: "Every day, I will choose us again. (Edit this text.)" }
+    { t: "I promise to respect you.", d: "Your choices, your voice and your space matter to me. " },
+    { t: "I promise to support your dreams.", d: "I will cheer for you on every step of the way. " },
+    { t: "I promise to listen and understand.", d: "I will listen to understand, not just to reply. " },
+    { t: "I promise to stand beside you.", d: "In good days and hard days, I will be next to you. " },
+    { t: "I promise to keep choosing us.", d: "Every day, I will choose us again. " }
   ],
   // 100 generic placeholders. Replace any/all with full sentences of your own.
   reasons: [
@@ -30,7 +30,7 @@ window.CONFIG = {
     "the home I find in you","the future I see with you","the friend I have in you","the partner you are","the person you are","the time we share","the little things you do","the way you say my name","the way you look at me","the way you hold my hand",
     "your blessings in my life","your light in dark days","your smile on hard days","your voice on calls","your texts that brighten me","your surprises","your plans for us","your patience with me","your love for small joys","your belief in love",
     "you being you","you choosing me","you staying","you trying","you growing","you dreaming","you caring","you being mine","us together","simply everything about you"
-  ].map((t, i) => "Reason " + (i + 1) + ": I love " + t + ". (Edit this text.)"),
+  ].map((t, i) => "Reason " + (i + 1) + ": I love " + t + ". "),
   // date: "YYYY-MM-DD" ("" = not set yet). yearly:true repeats every year.
   dates: [
     { label: "Our relationship began", date: "2024-11-11", yearly: true, note: "Our anniversary" },
