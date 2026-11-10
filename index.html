@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ankit ❤️ Anjali — Our Forever</title>
+<meta name="theme-color" content="#0b0305">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E❤️%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="petals" aria-hidden="true"></div>
+<nav aria-label="Sections"><a href="#home">Home</a><a href="#memories">Memories</a><a href="#wishes">Wishes</a><a href="#promises">Promises</a><a href="#reasons">Reasons</a><a href="#dates">Dates</a><a href="#bucket">Bucket list</a><a href="#letters">Letters</a><a href="#song">Song</a><a href="#forever">Forever</a></nav>
+<main>
+<section id="home" class="hero">
+  <h1 id="heroNames">ANKIT ❤️ ANJALI</h1>
+  <p class="script">Our Forever</p>
+  <p>Every second, a little more together.</p>
+  <p class="muted" id="sinceTxt">Since 11 November 2024</p>
+  <div class="counter glass" role="timer" aria-label="Time together">
+    <div><b data-unit="y">--</b><span>Years</span></div><div><b data-unit="mo">--</b><span>Months</span></div><div><b data-unit="d">--</b><span>Days</span></div>
+    <div><b data-unit="h">--</b><span>Hours</span></div><div><b data-unit="mi">--</b><span>Minutes</span></div><div><b data-unit="s">--</b><span>Seconds</span></div>
+  </div>
+  <p class="badge" id="milestone">Counting…</p>
+</section>
+
+<section id="memories"><h2>Our Memories 📸</h2>
+  <p class="sub">Every picture has a story. Every moment belongs to us.</p>
+  <div class="card glass lock"><div class="lockicon" aria-hidden="true">🔒</div><p>Only for us ❤️</p>
+  <a id="driveBtn" class="btn" href="#">Open Our Private Memories ❤️</a>
+  <p class="muted small">Opens a private Google Drive folder. Only approved Google accounts can see it.</p></div>
+</section>
+
+<section id="wishes"><h2 id="wishTitle">Little Wishes 💗</h2><div class="grid" id="wishList"></div></section>
+
+<section id="promises"><h2>Promises for Our Forever ♾️</h2><p class="sub">Tap a promise to read more.</p><div class="grid" id="promiseList"></div></section>
+
+<section id="reasons"><h2>100 Reasons Why I Love You ❤️</h2>
+  <p class="sub" id="rCount" aria-live="polite"></p>
+  <div class="bar"><button class="btn" id="rRandom">Reveal a random reason</button><button class="btn ghost" id="rAll">Reveal all</button></div>
+  <p id="reasonShow" class="reasonShow glass" aria-live="polite">Pick a number below ❤️</p>
+  <div id="reasonGrid" class="numgrid"></div>
+  <ol id="reasonAll" class="allList"></ol>
+</section>
+
+<section id="dates"><h2>Our Special Dates 📅</h2><ul class="grid list" id="dateList"></ul></section>
+
+<section id="bucket"><h2>Things We Will Do Together ✨</h2>
+  <div class="progress" role="progressbar" aria-label="Bucket list progress"><div id="bProg"></div></div>
+  <p class="sub" id="bTxt"></p>
+  <div class="grid" id="bucketList"></div>
+  <p class="muted small">Progress is saved only in this browser on this device. Other phones or browsers keep their own progress.</p>
+</section>
+
+<section id="letters"><h2>Open When… 💌</h2><div class="grid" id="letterList"></div></section>
+
+<section id="song"><h2>Our Song 🎶</h2>
+  <div class="card glass player"><audio id="audio" preload="none"></audio>
+    <button class="btn" id="play">▶ Play</button>
+    <label class="vol">Volume <input id="vol" type="range" min="0" max="1" step="0.05" value="0.6" aria-label="Volume"></label>
+    <button class="btn ghost" id="mute">🔊 Mute</button>
+    <p class="muted" id="mStatus" aria-live="polite">Ready</p></div>
+</section>
+
+<section id="forever" class="final">
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <h2>Forever &amp; Always ❤️</h2>
+  <div class="heart" aria-hidden="true">❤</div>
+  <p class="quote" id="fQuote"></p><p class="script" id="fGreet"></p>
+  <p class="letter glass" id="fLetter"></p>
+  <ul class="fp" id="fPromises"></ul>
+  <button class="btn" id="celebrate">Celebrate 🎆</button>
+</section>
+</main>
+<footer class="muted small">Made with love, for Anjali.</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/config.js"></script><script src="js/counter.js"></script><script src="js/memories.js"></script>
+<script src="js/interactions.js"></script><script src="js/main.js"></script>
+</body>
+</html>
