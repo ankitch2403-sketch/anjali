@@ -33,7 +33,7 @@ window.CONFIG = {
   ].map((t, i) => "Reason " + (i + 1) + ": I love " + t + ". "),
   // date: "YYYY-MM-DD" ("" = not set yet). yearly:true repeats every year.
   dates: [
-  { label: "Our relationship began", date: "2024-11-11", yearly: true,  note: },
+  { label: "Our relationship began", date: "2024-11-11", yearly: true, note: "Our anniversary" },
   { label: "Anjali's birthday", date: "2007-02-22", yearly: true },
   { label: "Ankit's birthday", date: "2003-10-03", yearly: true },
   { label: "Another special day", date: "2026-03-17", yearly: false }
