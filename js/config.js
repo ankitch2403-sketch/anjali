@@ -9,7 +9,7 @@ window.CONFIG = {
     "May all your dreams come true.",
     "May happiness always find you.",
     "May we always understand each other.",
-    "May life bring us countless beautiful memories."
+    "May life bring us countless beautiful memorie
   ],
   promises: [
     { t: "I promise to respect you.", d: "Your choices, your voice and your space matter to me. " },
@@ -36,8 +36,8 @@ window.CONFIG = {
   { label: "Our relationship began", date: "2024-11-11", yearly: true, note: "Our anniversary" },
   { label: "Anjali's birthday", date: "2007-02-22", yearly: true },
   { label: "Ankit's birthday", date: "2003-10-03", yearly: true },
-  { label: "Our first meeting", date: "2024", yearly: true },
-  { label: "Another special day", date: "2026-03-17", yearly: false }
+
+ { label: "Another special day", date: "2026-03-17", yearly: false }
 ],
   bucket: [
     "Explore beautiful places together.",
