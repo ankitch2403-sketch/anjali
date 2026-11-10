@@ -9,7 +9,7 @@ window.CONFIG = {
     "May all your dreams come true.",
     "May happiness always find you.",
     "May we always understand each other.",
-    "May life bring us countless beautiful memorie
+    "May life bring us countless beautiful memories."
   ],
   promises: [
     { t: "I promise to respect you.", d: "Your choices, your voice and your space matter to me. " },
